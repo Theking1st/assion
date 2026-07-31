@@ -1,0 +1,7 @@
+# Robots.txt - ASSION Website
+# À REMPLACER par le robots.txt final lors du déploiement
+
+User-agent: *
+Allow: /
+
+Sitemap: https://assion.org.cm/sitemap.xml

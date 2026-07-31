@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  
+  /* ASSION Brand Colors */
+  --assion-rose: #e91e63;
+  --assion-rose-light: #fce4ec;
+  --assion-rose-dark: #c2185b;
+  
+  --assion-white: #ffffff;
+  --assion-gray-50: #f9fafb;
+  --assion-gray-100: #f3f4f6;
+  
+  --assion-indigo: #3f51b5;
+  --assion-indigo-light: #e8eaf6;
+  --assion-indigo-dark: #303f9f;
+  
+  --assion-gold: #ffc107;
+  --assion-gold-light: #fff8e1;
+  --assion-gold-dark: #ffb300;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+  
+  /* ASSION Brand Colors in Tailwind */
+  --color-assion-rose: var(--assion-rose);
+  --color-assion-rose-light: var(--assion-rose-light);
+  --color-assion-rose-dark: var(--assion-rose-dark);
+  --color-assion-indigo: var(--assion-indigo);
+  --color-assion-indigo-light: var(--assion-indigo-light);
+  --color-assion-indigo-dark: var(--assion-indigo-dark);
+  --color-assion-gold: var(--assion-gold);
+  --color-assion-gold-light: var(--assion-gold-light);
+  --color-assion-gold-dark: var(--assion-gold-dark);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 320px;
+  max-width: 100vw;
+}
