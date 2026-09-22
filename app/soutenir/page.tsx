@@ -59,13 +59,32 @@ export default function SupportPage() {
                 <h3 className="font-bold text-gray-900 mb-4">Moyens de paiement disponibles</h3>
                 <div className="space-y-2 text-sm">
                   <div className="pt-4 border-t">
-                    <h4 className="font-semibold text-gray-900 mb-2">Orange Money</h4>
-                    <p className="text-sm text-gray-600">{siteData.donations.mobileMoney}</p>
+                    <div className="flex items-center space-x-3 mb-2">
+                      <img 
+                        src="/images/branding/orange-money.jpeg" 
+                        alt="Orange Money" 
+                        className="h-8 w-auto"
+                      />
+                      <h4 className="font-semibold text-gray-900">Orange Money</h4>
+                    </div>
+                    <p className="text-sm text-gray-600 ml-11">{siteData.donations.mobileMoney}</p>
+                  </div>
+                  <div className="pt-4 border-t">
+                    <h4 className="font-semibold text-gray-900 mb-2">Virement bancaire</h4>
+                    <p className="text-sm text-gray-600">{siteData.donations.bankName}</p>
+                  </div>
+                  <div className="pt-4 border-t">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <img 
+                        src="/images/branding/paypal.jpeg" 
+                        alt="PayPal" 
+                        className="h-8 w-auto"
+                      />
+                      <h4 className="font-semibold text-gray-900">PayPal</h4>
+                    </div>
+                    <p className="text-sm text-gray-600 ml-11">{siteData.donations.paypalEmail}</p>
                   </div>
                 </div>
-                <p className="text-xs text-gray-500 italic mt-4">
-                  D'autres moyens de paiement seront ajoutés prochainement.
-                </p>
               </div>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-lg">

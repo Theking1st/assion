@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     default: "ASSION - Association de Soutien aux Orphelins, Veuves et Nécessiteux",
     template: "%s | ASSION"
   },
-  description: "Ensemble, semons l'espoir, bâtissons l'avenir. ASSION œuvre pour soutenir les orphelins, accompagner les veuves et venir en aide aux personnes les plus vulnérables à Garoua, au Cameroun.",
+  description: "Toujours agir avec amour et solidarité. ASSION œuvre pour soutenir les orphelins, accompagner les veuves et venir en aide aux personnes les plus vulnérables à Garoua, au Cameroun.",
   keywords: ["ASSION", "orphelins", "veuves", "humanitaire", "Cameroun", "Garoua", "association", "solidarité", "dons"],
   authors: [{ name: "ASSION" }],
   creator: "ASSION",
@@ -31,14 +31,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
-  },
   openGraph: {
     title: "ASSION - Association de Soutien aux Orphelins, Veuves et Nécessiteux",
-    description: "Ensemble, semons l'espoir, bâtissons l'avenir. ASSION œuvre pour soutenir les orphelins, accompagner les veuves et venir en aide aux personnes les plus vulnérables à Garoua, au Cameroun.",
+    description: "Toujours agir avec amour et solidarité. ASSION œuvre pour soutenir les orphelins, accompagner les veuves et venir en aide aux personnes les plus vulnérables à Garoua, au Cameroun.",
     type: "website",
     locale: "fr_FR",
     siteName: "ASSION",
@@ -54,7 +49,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "ASSION - Association de Soutien aux Orphelins, Veuves et Nécessiteux",
-    description: "Ensemble, semons l'espoir, bâtissons l'avenir. ASSION œuvre pour soutenir les orphelins, accompagner les veuves et venir en aide aux personnes les plus vulnérables à Garoua, au Cameroun.",
+    description: "Toujours agir avec amour et solidarité. ASSION œuvre pour soutenir les orphelins, accompagner les veuves et venir en aide aux personnes les plus vulnérables à Garoua, au Cameroun.",
     images: ["/og-image.jpg"],
   },
   verification: {

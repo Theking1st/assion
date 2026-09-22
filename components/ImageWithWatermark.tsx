@@ -18,23 +18,26 @@ export default function ImageWithWatermark({
   loading = "lazy",
 }: ImageWithWatermarkProps) {
   return (
-    <div className="relative">
+    <div className="relative w-full h-full">
       <img
         src={src}
         alt={alt}
         className={className}
         loading={priority ? "eager" : loading}
       />
-      <div className="absolute bottom-3 right-3 opacity-50 pointer-events-none">
-        <img
-          src="/images/branding/logo-assion-icon.jpg"
-          alt="ASSION"
-          className="rounded-full"
-          style={{
-            width: "32px",
-            height: "32px",
-          }}
-        />
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <div className="bg-black/20 rounded-full p-1 backdrop-blur-[1px]">
+          <img
+            src="/images/branding/logo-assion.jpg"
+            alt="ASSION"
+            className="rounded-full"
+            style={{
+              width: "64px",
+              height: "64px",
+              opacity: "0.4",
+            }}
+          />
+        </div>
       </div>
     </div>
   );

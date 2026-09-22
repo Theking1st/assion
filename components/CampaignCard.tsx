@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Campaign } from "@/data/campaigns";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import ImageWithWatermark from "@/components/ImageWithWatermark";
 
 interface CampaignCardProps {
   campaign: Campaign;
@@ -19,17 +20,11 @@ export default function CampaignCard({ campaign }: CampaignCardProps) {
       className="bg-white rounded-xl sm:rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow cursor-pointer w-full"
     >
       <div className="relative aspect-video">
-        <motion.div
-          className="w-full h-full"
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.3 }}
-        >
-          <img
-            src={campaign.image}
-            alt={campaign.title}
-            className="w-full h-full object-cover"
-          />
-        </motion.div>
+        <ImageWithWatermark
+          src={campaign.image}
+          alt={campaign.title}
+          className="w-full h-full object-cover"
+        />
       </div>
 
       <div className="p-4 sm:p-6">

@@ -126,7 +126,7 @@ Les informations suivantes sont marquées comme `[À RENSEIGNER]` dans les fichi
 ## 📝 Informations Officiles Intégrées
 
 - ✅ Nom officiel : Association de Soutien aux Orphelins, Veuves et Nécessiteux
-- ✅ Devise : "Ensemble, semons l'espoir, bâtissons l'avenir."
+- ✅ Devise : "Toujours agir avec amour et solidarité"
 - ✅ Présentation officielle
 - ✅ Mission officielle
 - ✅ Vision officielle

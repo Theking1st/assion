@@ -1,15 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Smartphone, Building2, X, HandHeart } from "lucide-react";
+import { X, HandHeart, Building2 } from "lucide-react";
 import { siteData } from "@/data/site";
 
 export default function DonationButtons() {
   const [isOpen, setIsOpen] = useState(false);
-
-  const handleOrangeMoney = () => {
-    window.open(`https://wa.me/${siteData.donations.mobileMoney.replace(/\+/g, "")}?text=${encodeURIComponent("Bonjour, je souhaite faire un don par Orange Money.")}`, "_blank");
-  };
 
   return (
     <div className="fixed bottom-16 left-3 sm:bottom-6 sm:left-6 z-50">
@@ -35,21 +31,37 @@ export default function DonationButtons() {
             </button>
           </div>
 
-          <button onClick={handleOrangeMoney} className="w-full flex items-center space-x-2 sm:space-x-3 p-2 sm:p-3 bg-orange-100 hover:bg-orange-200 rounded-lg transition-colors">
-            <Smartphone className="w-5 h-5 sm:w-6 sm:h-6 text-orange-600" />
+          <div className="flex items-center space-x-2 sm:space-x-3 p-2 sm:p-3 bg-orange-100 rounded-lg">
+            <img 
+              src="/images/branding/orange-money.jpeg" 
+              alt="Orange Money" 
+              className="w-5 h-5 sm:w-6 sm:h-6"
+            />
             <div className="text-left">
-              <p className="font-semibold text-gray-900 text-xs sm:text-sm"> Orange Money</p>
+              <p className="font-semibold text-gray-900 text-xs sm:text-sm">Orange Money</p>
               <p className="text-xs text-gray-600">{siteData.donations.mobileMoney}</p>
             </div>
-          </button>
+          </div>
 
-          <button className="w-full flex items-center space-x-2 sm:space-x-3 p-2 sm:p-3 bg-green-100 hover:bg-green-200 rounded-lg transition-colors opacity-50 cursor-not-allowed">
+          <div className="flex items-center space-x-2 sm:space-x-3 p-2 sm:p-3 bg-green-100 rounded-lg opacity-50">
             <Building2 className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" />
             <div className="text-left">
               <p className="font-semibold text-gray-900 text-xs sm:text-sm">Virement bancaire</p>
-              <p className="text-xs text-gray-600">{siteData.donations.bankName} (En cours)</p>
+              <p className="text-xs text-gray-600">{siteData.donations.bankName}</p>
             </div>
-          </button>
+          </div>
+
+          <div className="flex items-center space-x-2 sm:space-x-3 p-2 sm:p-3 bg-blue-100 rounded-lg opacity-50">
+            <img 
+              src="/images/branding/paypal.jpeg" 
+              alt="PayPal" 
+              className="w-5 h-5 sm:w-6 sm:h-6"
+            />
+            <div className="text-left">
+              <p className="font-semibold text-gray-900 text-xs sm:text-sm">PayPal</p>
+              <p className="text-xs text-gray-600">{siteData.donations.paypalEmail}</p>
+            </div>
+          </div>
 
           <button
             onClick={() => window.location.href = "/soutenir"}

@@ -121,8 +121,12 @@ export default function AboutPage() {
           />
           <div className="max-w-3xl mx-auto bg-assion-rose-light/20 rounded-2xl p-8">
             <div className="flex items-start space-x-4">
-              <div className="shrink-0 w-12 h-12 bg-assion-rose rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">ASSION</span>
+              <div className="shrink-0 w-16 h-16 bg-white rounded-lg flex items-center justify-center shadow-md">
+                <img 
+                  src="/images/branding/logo-assion.jpg" 
+                  alt="ASSION" 
+                  className="w-14 h-14 object-contain"
+                />
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Statut Juridique</h3>

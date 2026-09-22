@@ -17,9 +17,9 @@ export default function Logo({
   height,
   priority = false,
 }: LogoProps) {
-  const logoSrc = variant === "full" 
+  const logoSrc = variant === "full"
     ? "/images/branding/logo-assion.jpg"
-    : "/images/branding/logo-assion-icon.jpg";
+    : "/images/branding/logo-assion.jpg";
 
   const altText = variant === "full"
     ? "ASSION - Association de Soutien aux Orphelins, Veuves et Nécessiteux"

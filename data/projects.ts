@@ -16,6 +16,28 @@ export interface Project {
 
 export const projectsData: Project[] = [
   {
+    id: "don-rentree-scolaire-2026",
+    title: "Don pour la rentrée scolaire à l'orphelinat Monseigneur Jean-Claude Bouchard",
+    date: "Septembre 2026",
+    location: "Orphelinat Monseigneur Jean-Claude Bouchard, Garoua, Cameroun",
+    description:
+      "ASSION a effectué un don pour la rentrée scolaire à l'orphelinat Monseigneur Jean-Claude Bouchard à Garoua. Cette action vise à soutenir l'éducation des orphelins en leur fournissant le matériel scolaire nécessaire pour bien commencer leur année scolaire.",
+    beneficiaries: "Enfants orphelins de l'orphelinat Monseigneur Jean-Claude Bouchard",
+    impact: "Soutien à l'éducation et équipement scolaire pour les orphelins",
+    image: "/images/projects/Don-rentree-scolaire-2026/1.jpg",
+    gallery: [
+      "/images/projects/Don-rentree-scolaire-2026/1.jpg",
+      "/images/projects/Don-rentree-scolaire-2026/2.jpg",
+      "/images/projects/Don-rentree-scolaire-2026/3.jpg",
+      "/images/projects/Don-rentree-scolaire-2026/4.jpg",
+      "/images/projects/Don-rentree-scolaire-2026/5.jpg",
+      "/images/projects/Don-rentree-scolaire-2026/6.jpg",
+      "/images/projects/Don-rentree-scolaire-2026/7.jpg",
+    ],
+    videos: [],
+    category: "Orphelins",
+  },
+  {
     id: "prison-centrale-garoua-2025",
     title: "Aux côtés des détenus de la Prison Centrale de Garoua",
     date: "Décembre 2025",
@@ -73,6 +95,8 @@ export const projectsData: Project[] = [
       "/images/projects/orphelinat-bidzard-2025/4.jpg",
       "/images/projects/orphelinat-bidzard-2025/5.jpg",
       "/images/projects/orphelinat-bidzard-2025/6.jpg",
+      "/images/projects/orphelinat-bidzard-2025/7.jpeg",
+      "/images/projects/orphelinat-bidzard-2025/8.jpeg",
     ],
     videos: [
       "/images/projects/orphelinat-bidzard-2025/video-1.mp4",
@@ -82,12 +106,12 @@ export const projectsData: Project[] = [
   },
   {
     id: "soutien-rahma-douala-2025",
-    title: "Soutien financier au membre Rahma Tadjo",
+    title: "Soutien financier au membre RAHIMA TAHDJO",
     date: "Février 2025",
     location: "Douala, Cameroun",
     description:
-      "ASSION a apporté un soutien financier à Rahma Tadjo, membre de l'association à Douala, victime d'un accident de circulation ayant entraîné l'amputation de son pied. Un geste de solidarité pour l'accompagner dans cette épreuve.",
-    beneficiaries: "Rahma Tadjo et sa famille",
+      "ASSION a apporté un soutien financier à RAHIMA TAHDJO, membre de l'association à Douala, victime d'un accident de circulation ayant entraîné l'amputation de son pied. Un geste de solidarité pour l'accompagner dans cette épreuve.",
+    beneficiaries: "RAHIMA TAHDJO et sa famille",
     impact: "Soutien financier et moral apporté à une victime d'accident de la route",
     image: "/images/projects/soutien-rahma-douala-2025/1.jpg",
     gallery: [
