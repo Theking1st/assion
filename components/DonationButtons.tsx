@@ -39,7 +39,8 @@ export default function DonationButtons() {
             />
             <div className="text-left">
               <p className="font-semibold text-gray-900 text-xs sm:text-sm">Orange Money</p>
-              <p className="text-xs text-gray-600">{siteData.donations.mobileMoney}</p>
+              <p className="text-xs text-gray-600">ASSOCIATION ASSION</p>
+              <p className="text-xs text-gray-600">{siteData.donations.orangeMoneyCode}</p>
             </div>
           </div>
 

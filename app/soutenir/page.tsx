@@ -67,7 +67,9 @@ export default function SupportPage() {
                       />
                       <h4 className="font-semibold text-gray-900">Orange Money</h4>
                     </div>
-                    <p className="text-sm text-gray-600 ml-11">{siteData.donations.mobileMoney}</p>
+                    <p className="text-sm text-gray-600 ml-11">
+                      <strong>Code de don direct (ASSOCIATION ASSION) :</strong> {siteData.donations.orangeMoneyCode}
+                    </p>
                   </div>
                   <div className="pt-4 border-t">
                     <h4 className="font-semibold text-gray-900 mb-2">Virement bancaire</h4>

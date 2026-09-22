@@ -86,6 +86,9 @@ export default function ContactPage() {
               <Phone className="w-16 h-16 mx-auto mb-4 text-assion-rose" />
               <h3 className="text-xl font-bold text-gray-900 mb-2">Téléphone</h3>
               <p className="text-gray-600">{siteData.contact.phone}</p>
+              {siteData.contact.secondaryPhone && (
+                <p className="text-gray-600 mt-1">{siteData.contact.secondaryPhone}</p>
+              )}
             </div>
             <div className="bg-gray-50 rounded-2xl p-8 text-center">
               <Mail className="w-16 h-16 mx-auto mb-4 text-assion-rose" />

@@ -74,6 +74,12 @@ export default function Footer() {
                   <span className="text-xs sm:text-sm text-gray-400 wrap-break-word">{siteData.contact.phone}</span>
                 </li>
               )}
+              {siteData.contact.secondaryPhone && (
+                <li className="flex items-center space-x-2 sm:space-x-3">
+                  <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-assion-rose shrink-0" />
+                  <span className="text-xs sm:text-sm text-gray-400 wrap-break-word">{siteData.contact.secondaryPhone}</span>
+                </li>
+              )}
               {siteData.contact.email && siteData.contact.email !== "[À RENSEIGNER]" && (
                 <li className="flex items-center space-x-2 sm:space-x-3">
                   <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-assion-rose shrink-0" />

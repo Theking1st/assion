@@ -9,7 +9,8 @@ export const siteData = {
   // Coordonnées officielles
   contact: {
     address: "Camp SIC Bornouans, Garoua, Région du Nord, Cameroun",
-    phone: "+237 688 723 066",
+    phone: "+237 695 55 71 79",
+    secondaryPhone: "+237 688 723 066",
     email: "associationassion1@gmail.com",
     whatsapp: "+237 695 55 71 79",
     facebook: "https://www.facebook.com/profile.php?id=100071219871396",
@@ -22,6 +23,7 @@ export const siteData = {
   // Informations de dons
   donations: {
     mobileMoney: "+237 688 723 066", // Orange Money
+    orangeMoneyCode: "#150*47*920833#", // Code de don Orange Money direct
     bankName: "En cours d'ouverture", // Coordonnées bancaires à venir
     paypalEmail: "En cours de configuration", // PayPal à venir
   },
